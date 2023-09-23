@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	int ans = 0;
+	cin>>t;
+	while(t--){
+	    int n;
+	    cin >> n;
+	    for(int i = 1; i < n; i++){
+	         int temp = 4*i;
+	         if(n<=temp){
+	             ans = i;
+	             break;
+	         }
+	    }
+	    cout << ans << endl;
+	}
+	return 0;
+}
