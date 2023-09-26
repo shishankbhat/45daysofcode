@@ -10,7 +10,7 @@ int main() {
 	    if (b > a+c){
 	        
 	        cout << b <<endl;
-	    }
+	    } 
 	    else{
 	        cout << a + c<<endl;
 	    }
